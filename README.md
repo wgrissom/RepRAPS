@@ -7,3 +7,5 @@ Array-compressed pTx (acpTx) networks comprised of unequal power splitters lower
 allowing fewer channels to drive more coils. The designs (gerber files) for 1:1, 1:2, 1:4 and 1:8 power splitters are held in this repository. 
 The designs can be cascaded to be combined in multiple stages for a wider variety of output ratios. Additionally, they can be modified to increase the number of output ports. The designs are
 optimized to a small size and tuned to low-loss at 298 MHz (7 Tesla). 
+
+Additionally, matlab code is provided along with an example to create the wire pattern for the optimized splitters. This can be used for various frequencies, materials, and more. The wire pattern can be imported into an EM simulator. Then, exported into board files.

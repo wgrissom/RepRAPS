@@ -23,5 +23,3 @@ Width_matrix = Width_calc(Z_matrix,cu_weight,thickness,Er);
 %comment/uncomment if using stage 1 or stage 2 with ratio <= 2
 [rtls] = wirePattern_stage1_calc(Radii_matrix,tl,Width_matrix);
 %[rtls] = wirePattern_stage2_calc(Radii_matrix,tl,Width_matrix);
-%comment/uncomment if using stage 2 with ratio > 2
-%[rtls] = wirePattern_stage2_calc_higherRatio(Radii_matrix,tl,Width_matrix);
